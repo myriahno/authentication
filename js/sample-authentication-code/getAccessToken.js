@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const qs = require('querystring');
 const upperCase = require('upper-case');
 const forge = require('node-forge');
-const config = require('./config/config.json');
+const config = require('./config/config.js');
 
 const {pki, md} = forge;
 const app = express();
